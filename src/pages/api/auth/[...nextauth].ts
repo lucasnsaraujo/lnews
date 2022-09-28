@@ -21,7 +21,6 @@ export default NextAuth({
             },
          },
       }),
-      // ...add more providers here
    ],
    callbacks: {
       async signIn(user): Promise<boolean> {
