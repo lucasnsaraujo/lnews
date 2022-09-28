@@ -7,16 +7,16 @@ import { client } from "../services/prismic";
 import "../styles/global.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <PrismicProvider client={client}>
-        <NextAuthProvider session={pageProps.session}>
-          <Header />
-          <Component {...pageProps} />
-        </NextAuthProvider>
-      </PrismicProvider>
-    </>
-  );
+   return (
+      <>
+         <PrismicProvider client={client}>
+            <NextAuthProvider session={pageProps.session}>
+               <Header />
+               <Component {...pageProps} />
+            </NextAuthProvider>
+         </PrismicProvider>
+      </>
+   );
 }
 
 export default MyApp;
