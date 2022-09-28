@@ -23,7 +23,7 @@ export default NextAuth({
       // ...add more providers here
    ],
    callbacks: {
-      async signIn(user, account, profile): Promise<boolean> {
+      async signIn(user): Promise<boolean> {
          try {
             await fauna.query(
                q.If(
