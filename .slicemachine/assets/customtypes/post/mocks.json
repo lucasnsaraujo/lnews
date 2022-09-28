@@ -14,14 +14,19 @@
     "title": [
       {
         "type": "heading1",
-        "text": "Chose",
+        "text": "Atomic",
         "spans": []
       }
     ],
     "content": [
       {
+        "type": "heading1",
+        "text": "Layers",
+        "spans": []
+      },
+      {
         "type": "paragraph",
-        "text": "Cupidatat aute duis ullamco veniam magna laboris aliqua dolor voluptate id esse veniam deserunt id cillum. Dolore labore mollit sunt consectetur esse commodo laborum eiusmod ex laboris aute eu occaecat ex eu. Enim proident cillum eiusmod minim.",
+        "text": "Anim anim do aliqua cupidatat voluptate eiusmod amet in aute Lorem adipisicing. Cillum in consectetur minim consequat nulla et culpa magna enim tempor.",
         "spans": []
       }
     ],

@@ -15,7 +15,6 @@ interface HomeProps {
 
 
 export default function Home({ product }: HomeProps) {
-
    return (
       <>
          <Head>
@@ -56,7 +55,6 @@ export const getStaticProps: GetStaticProps = async () => {
       revalidate: 60 * 60 * 24 // in seconds == 24 hours
    }
 }
-
 // Client-side => Chamada normal, pelo componente (api.get ou fetch etc)
 // Server-side => Caso precise da informação NO MOMENTO DA RENDERIZAÇÂO, caso não, usar client
 // Static => Caso a chamada seja custosa e não possa ser feita diversas chamadas na API
