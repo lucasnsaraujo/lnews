@@ -9,6 +9,7 @@ interface SessionProps extends Session {
 }
 
 export default NextAuth({
+   secret: process.env.SECRET,
    // Configure one or more authentication providers
    providers: [
       GithubProvider({
